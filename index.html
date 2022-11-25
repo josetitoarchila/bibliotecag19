@@ -6,39 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/estilos/index.css" />
 </head>
 
 <body>
     <!--cabecera de la pagina-->
-    <header style="background-color: antiquewhite; width: 100%; height: 150px;">
+    <header>
         <!--caja para logo-->
-        <div style="background-color:cornflowerblue; width: 50%; height: 120px; float: left; text-align:center">
+        <div class="caja_logo">
             <!--hipervinculo para la imagen-->
             <a href="https://www.eltiempo.com" target="_blank">
-                <img src="/img/logo1.png">
+                <img src="/img/imagen.jpg">
             </a>
         </div>
         <!--caja para el titulo-->
-        <div style="background-color:lightskyblue; width: 50%; height: 120px; float: left">
-            <h1>Biblioteca G19</h1>
+        <div class="caja_titulo">
+            <h1 class="estilo_titulo">Biblioteca G19</h1>
 
         </div>
         <!--crear el menu-->
         <nav style="text-align: center">
             <ul>
-                <li style="display:inline-block"><a href="#">Inicio</a></li>
-                <li style="display:inline-block"><a href="#">Sobre nosotros</a></li>
-                <li style="display:inline-block"><a href="#">Contactos</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contactos</a></li>
               </ul>
         </nav>
     </header>
     <main style="text-align:center">
-        <h1>FORMULARIO - INGRESAR LIBROS</h1>            
-        <label>NOMBRE</label>
-        <input type="text" id="nombre" name="nombre" />
-        <br /><br />
-        <input type="button" value="Guardar" />
-
+        <form id="formulario">
+            <h2 id="formulario_titulo">FORMULARIO - INGRESAR LIBROS</h2>            
+            <label>NOMBRE</label>
+            <input type="text" id="nombre" name="nombre" />
+            <br /><br />
+            <input type="button" value="Guardar" />
+        </form>
     </main>
 
 
