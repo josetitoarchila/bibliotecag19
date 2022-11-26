@@ -8,6 +8,7 @@ h1{
 .estilo_titulo{
 
     font-size: 35px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 /*footer*/
 .caja_logo{
@@ -44,21 +45,74 @@ div h1{
 
 /*estilos del main*/
 #formulario{
-    background-color:#599ac5;
-    color:white;
+    background-color:white;
+    color:black;
+    margin-left: 30%;
+    width: 40%;
+    margin-right: 30%;
 }
 #formulario_titulo{
-    color:white;
+    color:black;
+    text-align: center;
 }
 
+label{
+    display:inline-block;
+    width: 30%;
+ 
+}
+
+input, select{
+    width: 68%;
+}
+
+.boton_formulario{
+    width: 49%;
+    height: 35px;
+    background-color: white;
+    border-color: orangered;
+    color:black;
+}
+
+.boton_formulario:hover{
+    color: orangered;
+}
+
+
 /*menu*/
+nav{
+    text-align: center;
+
+}
+
 li{
     display:inline-block;
-    width: 150px;
+    width: 15%;
+    height: 35px;
+    background-color: orangered;
+    padding-top: 10px;   
 }
 
 li a{
     text-decoration: none;
+    color: white;
     
+
+}
+
+li a:hover{
+    color:dodgerblue;
+}
+
+/*tabla*/
+table{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid #000;
+}
+
+th, td{
+    border: 1px solid #000;
 }
 
