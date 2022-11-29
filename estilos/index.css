@@ -115,4 +115,124 @@ table{
 th, td{
     border: 1px solid #000;
 }
+/*fin tabla*/
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 220px;
+    /*background-color: cadetblue;*/
+}
+.caja1{
+    width: 33%;
+    height: 220px;
+    /*background-color: crimson;*/
+    float: left;border: 1px solid #000;
+}
+.caja2{
+    width: 33%;
+    height: 220px;
+    /*background-color:darkcyan;*/
+    float: left;
+    border: 1px solid #000;
+}
+.caja3{
+    width: 33%;
+    height: 220px;
+    /*background-color:deepskyblue;*/
+    float: left;
+    border: 1px solid #000;
+}
+
+.caja_superior{
+    width: 100%;
+    height: 60px;
+    /*background-color: cornflowerblue;*/
+    
+}
+
+.caja_superior1{
+    width: 80%;
+    height: 60px;
+    /*background-color: orange;*/
+    float: left;
+    position: relative;
+}
+
+.caja_superior1 h3{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+.caja_superior2{
+    width: 20%;
+    height: 60px;
+    /*background-color: yellow;*/
+    float: left;
+    position: relative;
+}
+
+.caja_superior2 span{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+span{
+    color:dodgerblue;
+    font-size:30px !important;
+}
+
+.caja_media{
+    width: 100%;
+    height: 120px;
+    /*background-color:cornflowerblue;*/
+}
+
+.caja_media1{
+    width: 45%;
+    height: 120px;
+    /*background-color:aqua;*/
+    float: left;
+    margin-left: 5%;
+}
+.caja_media2{
+    width: 45%;
+    height: 120px;
+    /*background-color:greenyellow;*/
+    float: left;
+}
+.caja_inferior{
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    position: relative;
+}
+
+.caja_inferior input{
+    position: absolute;
+    left: 85%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.estilo_boton{
+    width: 30%;
+    height: 30px;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+/*fin footer*/
 
