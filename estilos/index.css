@@ -63,7 +63,7 @@ label{
 }
 
 input, select{
-    width: 68%;
+    width: 60%;
 }
 
 .boton_formulario{
@@ -236,3 +236,91 @@ h3{
 
 /*fin footer*/
 
+/* responsive web designe*/
+/* moviles vertical*/
+@media screen and (max-width: 640px){
+    .caja_logo{
+        width: 100%; 
+        height: 140px; 
+        float: none; 
+    }
+    div img{
+        left: 50%;
+    }
+    .caja_titulo{
+        width: 100%; 
+        height: 140px; 
+        float: none; 
+
+    }
+    
+    div h1{
+        left: 50%;
+        top: 30%;
+
+    }
+    
+    li{
+        display:inline-block;
+        
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;   
+        margin-bottom: 10px;
+    }
+
+    nav{
+        margin-left: -10%;
+    }
+
+    /*inicio formulario*/
+    #formulario{
+        margin-left: 1%;
+        width: 99%;
+        margin-right: 1%;
+    }
+
+    label{
+        display:inline-block;
+        width: 95%;
+     
+    }
+    
+    input, select{
+        width: 95%;
+    }
+    
+    .boton_formulario{
+        width: 99%;
+        margin-bottom: 10px;
+    }
+
+    /*fin formulario*/
+
+    /*inicio footer*/
+
+    .caja1, .caja2, .caja3{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+
+    /*fin footer*/
+
+       
+}
+
+/* moviles horizontal*/
+@media screen and (min-width: 641px) and (max-width:1000px){
+
+    #formulario{
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .caja_superior1 h3{
+        left: 40%;
+    }
+    
+
+}
