@@ -1,0 +1,75 @@
+.estilo_titulo, h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/*.fila1{
+    background-color: deepskyblue;
+}
+.fila2{
+    background-color: crimson;
+}*/
+
+.caja1{
+    /*background-color: aquamarine;*/
+    position: relative;
+    height: 140px;
+}
+
+
+.caja1 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.caja2{
+    /*background-color: cornflowerblue;*/
+    height: 140px;
+    position: relative;
+}
+.caja2 h1{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+
+
+}
+.caja3{
+    background-color: deepskyblue;
+}
+.nav-link{
+    color:white;
+}
+
+/*formulario*/
+.caja_formulario{
+    /*background-color:antiquewhite;*/
+}
+
+#formulario_titulo{
+    text-align: center;
+}
+
+.btn-formulario{
+/*    font-family: 'Montserrat Alternates', sans-serif;*/
+    width: 49%;
+    /*background-color:orangered;
+    border-color: orangered;*/
+}
+
+/*.btn-formulario:hover{
+    background-color: orange;
+
+}*/
+/*fin formulario*/
+
+/*ejercicios js*/
+.parrafo_js{
+    text-align:center; 
+    color:blue;
+}
+
+/*fin ejercicios js*/
