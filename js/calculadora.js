@@ -77,17 +77,39 @@ function sumar4(){
         document.getElementById("validar_numero2").innerHTML ="";
     }
     if((numero1!='')&&(numero2!='')){
-        alert("numero1"+numero1);
-        alert("numero2"+numero2);
         let sumatoria = sumar2(parseInt(numero1), parseInt(numero2));
-        alert("sumatoria"+sumatoria);
+
         let parrafos = document.getElementsByTagName("p");
         parrafos[0].innerHTML = "la suma es "+sumatoria;
+
+        //crear nodo o etiqueta
+        let crear_etiqueta = document.createElement("h5");
+        //crear texto para la etiqueta o nodo
+        let texto_etiqueta = document.createTextNode("la suma es "+sumatoria);
+        crear_etiqueta.appendChild(texto_etiqueta);
+
+        document.getElementById("caja_resultado").appendChild(crear_etiqueta);   
+
+        document.getElementById("btn_sumar").setAttribute("class", "btn btn-success btn-formulario");
+        document.getElementById("btn_sumar").setAttribute("disabled", "");
+        document.getElementById("btn_sumar").value="Guardo";
+
     
     }
 
-
-    
-    
-
 }
+
+function sumar5(){
+    //var formulario = document.getElementById("formulario").innerHTML;
+    var formulario = document.getElementById("formulario");
+    let longitud_formulario = formulario.length;
+
+    for(i=0; i<longitud_formulario; i++){
+        console.log("dato "+i+" tiene "+formulario[i].value);
+    }
+
+    alert("el campo 1 tiene el valor "+formulario[0].value);
+
+    alert("formualario tiene "+longitud_formulario);
+}
+
